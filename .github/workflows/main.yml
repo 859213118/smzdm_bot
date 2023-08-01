@@ -36,6 +36,6 @@ jobs:
 
       - name: Working
         env:
-          COOKIES: ${{ __ckguid=WcU6cP24a7xN1gVFE9QuU76; device_id=308390815816608987649505259aa8d9bb512f7d43e69a18e910c027a4; __jsluid_s=64b78bc733b4fdc406099bac053c11c4; homepage_sug=a; r_sort_type=score; sess=BA-2boRaHLEGrSpvHRm7x02oeUaEhWBkp7hQ2%2FgvJk%2FtnQHPwRMkScYRBXRHD4Cgs1DDuKovoOlW%2B2a4dVPA4usYJpPNjZWvNItwk2oAjNZscd6h8CIt%2BEjZxnq; user=user%3A7477366679%7C7477366679; smzdm_id=7477366679; _zdmA.uid=ZDMA.NlxvjXG33.1690854235.2419200 }}
+          COOKIES: ${{ secrets.__ckguid=WcU6cP24a7xN1gVFE9QuU76; device_id=308390815816608987649505259aa8d9bb512f7d43e69a18e910c027a4; __jsluid_s=64b78bc733b4fdc406099bac053c11c4; homepage_sug=a; r_sort_type=score; sess=BA-2boRaHLEGrSpvHRm7x02oeUaEhWBkp7hQ2%2FgvJk%2FtnQHPwRMkScYRBXRHD4Cgs1DDuKovoOlW%2B2a4dVPA4usYJpPNjZWvNItwk2oAjNZscd6h8CIt%2BEjZxnq; user=user%3A7477366679%7C7477366679; smzdm_id=7477366679; _zdmA.uid=ZDMA.NlxvjXG33.1690854235.2419200 }}
           SERVERCHAN_SECRETKEY: ${{ secrets.SERVERCHAN_SECRETKEY }}
         run: python main.py #>SMZDM_Bot.log
